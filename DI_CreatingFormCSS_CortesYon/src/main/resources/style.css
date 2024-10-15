@@ -1,0 +1,20 @@
+
+.root {
+    -fx-background-color: grey; /* Fondo gris */
+}
+
+
+/* Estilo para el botón */
+.button {
+    -fx-background-color: green; /* verde */
+    -fx-text-fill: #000000; /* Texto en negro */
+    -fx-font-weight: bold;  /* Texto en negrita */
+    -fx-padding: 10px 20px; /* Padding para el boton */
+    -fx-border-radius: 5px; /* Bordes redondeados */
+    -fx-background-radius: 5px; /* Radio de fondo */
+}
+
+/* Cambia a gris mas oscuro al pasar por encima el raton sobre el boton */
+.button:hover {
+    -fx-background-color: #C0C0C0;
+}
